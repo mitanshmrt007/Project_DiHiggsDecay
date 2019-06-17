@@ -1,11 +1,8 @@
 # Project_DiHiggsDecay
-The Project focuses on the study of DiHiggs Decay using the NMSSM Model
 
 In this project, we study the decay of Double Higgs into bb~+GammaGamma in the final state in the Next-to Minimal Supersymmetric Standard Model using MadGraph5. We study the following processes:
 
 g g > H03 > H01 H02 (H01 > a a , H02> b b~) and  g g > H03 > H01 H02 (H02 > a a , H01> b b~).
-
-Note: By default Madgraph generates 10000 events.
 
 To generate the process first, execute the following commands:
 
@@ -41,8 +38,7 @@ The editing of the param card can be done only in vim editor. To insert text pre
 The editing of the param card can be done only in vim editor. To insert text press 'i' and to save the card press 'Esc' key and press 'shift+z' twice.
 
 >0
-
  
-This will generate 10000 events of the process 'g g > h03 , (h03 > h2 h01, h2 > a a, h01 > b b~)'. A 'LHE' file will be produced which will contains information about four momentum, invariant state of the particles generated during the process.    
+This will generate 10000 events of the process 'g g > h03 , (h03 > h2 h01, h2 > a a, h01 > b b~)'. A 'LHE' file will be produced which will contains information about four momentum, invariant state of the particles generated during the process. Note: By default Madgraph generates 10000 events.   
 
 To generate the process  g g > h03 , (h03 > h2 h01, h01 > a a, h2 > b b~), follow the same set of commands.
